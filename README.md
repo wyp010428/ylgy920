@@ -17,7 +17,7 @@ https://cat-match-static.easygame2021.com/maps/c1132aaca34fe95d20154aa4d5bfa826.
 ![C3541429-B127-49D7-A3FC-89DA2E8E3014](https://user-images.githubusercontent.com/58501978/191190680-1861f6b2-0822-4c44-8512-34e1f89e1d93.jpeg)
 
 ### 二、构造请求
-构造请求主要用来刷关，通关第一步通关后抓包，我们可以获得“正常”通关下的 MatchPlayInfo，即可用来构造请求。
+构造请求主要用来刷关，通过第一步通关后进行抓包，我们可以获得“正常”通关下的 MatchPlayInfo，即可用来构造请求。
 
 ### 三、构造请求
 但是我无意中发现，通关后会获取新皮肤，获取皮肤接口的接口 https://cat-match.easygame2021.com/sheep/v1/game/update_user_skin?skin=24 ，可以直接增加一次通关次数，并且排行榜可见！
