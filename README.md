@@ -19,7 +19,10 @@ https://cat-match-static.easygame2021.com/maps/c1132aaca34fe95d20154aa4d5bfa826.
 ### 二、构造请求
 构造请求主要用来刷关，通过第一步通关后进行抓包，我们可以获得“正常”通关下的 MatchPlayInfo，即可用来构造请求。
 
-### 三、构造请求
+### 三、构造请求2
 但是我无意中发现，通关后会获取新皮肤，获取皮肤接口的接口 https://cat-match.easygame2021.com/sheep/v1/game/update_user_skin?skin=24 ，可以直接增加一次通关次数，并且排行榜可见！
 具体实现方法见【main.py】
 ![84E0C895-6353-47D7-883E-08A3C1658425_1_102_o](https://user-images.githubusercontent.com/58501978/191184491-49a6bd09-552a-48f1-8e7a-b371a8a8043a.jpeg)
+
+### 四、如何刷皮肤
+在方法一删除小程序后，本地的皮肤数据就会被删除，把系统时间调到以前未通关的时间，返回小程序再次加入羊群即可刷皮肤了。
