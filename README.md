@@ -7,7 +7,7 @@
 ### 一、重写方法
 重写方法我们采用修改 blockTypeData 来实现，在删除小程序后，第一次启动时，会调用https://cat-match-static.easygame2021.com/maps/c1132aaca34fe95d20154aa4d5bfa826.txt
 来获取第二关的关卡信息，里面就有 blockTypeData ，我们将"blockTypeData":{"1":7,"2":7,"3":7,"4":7,"5":7,"6":7,"7":7,"8":7,"9":6,"10":6,"11":6,"12":6,"14":6,"15":6,"16":6},
-重写为"blockTypeData":{}，即可实现第二关的所有块变成空白模块。
+重写为"blockTypeData":{}，即可实现第二关的所有块变成空白模块。（建议使用正则表达式来写重写规则，这样一段时间应该就不需要更新了）
 
 使用Storm Sniffer重写方法在【重写规则.txt】或参考 https://zhuanlan.zhihu.com/p/564740778 或参考 Github 上其他软件的教程。
 ![34D410BE-9842-444E-99DF-C5170D3BE632](https://user-images.githubusercontent.com/58501978/191191784-48a4c021-f99b-4a9f-9245-834827d8e118.jpeg)
