@@ -14,6 +14,7 @@ https://cat-match-static.easygame2021.com/maps/c1132aaca34fe95d20154aa4d5bfa826.
 即可实现第二关的所有块变成空白模块。
 使用Storm Sniffer重写方法在【重写规则.txt】或参考 https://zhuanlan.zhihu.com/p/564740778
 或参考github其他软件教程。
+![C3541429-B127-49D7-A3FC-89DA2E8E3014](https://user-images.githubusercontent.com/58501978/191190680-1861f6b2-0822-4c44-8512-34e1f89e1d93.jpeg)
 
 ### 二、构造请求
 构造请求主要用来刷关，通关第一步通关后抓包，我们可以获得“正常”通关下的 MatchPlayInfo，即可用来构造请求。
