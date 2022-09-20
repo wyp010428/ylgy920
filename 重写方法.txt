@@ -1,0 +1,33 @@
+{
+  "paths": [
+    {
+      "host": "cat-match-static.easygame2021.com",
+      "regrexPath": "",
+      "rules": [
+        {
+          "mode": "regular",
+          "serverFile": "",
+          "regularAction": "modifyBody",
+          "tempFile": "",
+          "type": "response",
+          "matchKey": "\"blockTypeData\":\\{.+\\},\"levelData\"",
+          "localFile": "",
+          "mockType": "local",
+          "redirectCode": "code302",
+          "modifyValue": "\"blockTypeData\":{},\"levelData\"",
+          "mockFileType": 0,
+          "headerAction": "add"
+        }
+      ],
+      "query": "",
+      "pathMode": 0,
+      "port": "",
+      "schema": "https",
+      "path": "\/maps\/c1132aaca34fe95d20154aa4d5bfa826.txt"
+    }
+  ],
+  "enabled": 1,
+  "locked": 0,
+  "name": "Y",
+  "mitm": 1
+}
