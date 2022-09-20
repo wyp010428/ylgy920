@@ -12,8 +12,9 @@
 使用Storm Sniffer重写方法在【重写规则.txt】或参考 https://zhuanlan.zhihu.com/p/564740778 或参考 Github 上其他软件的教程。
 ![34D410BE-9842-444E-99DF-C5170D3BE632](https://user-images.githubusercontent.com/58501978/191191784-48a4c021-f99b-4a9f-9245-834827d8e118.jpeg)
 
-### 二、构造请求
+### 二、构造请求（无效）
 构造请求主要用来刷关，通过第一步通关后进行抓包，我们可以获得“正常”通关下的 MatchPlayInfo，即可用来构造请求。
+经过测试，方法无效
 
 ### 三、构造请求2
 但是我无意中发现，通关后会获取新皮肤，获取皮肤接口的接口 https://cat-match.easygame2021.com/sheep/v1/game/update_user_skin?skin=24 ，可以直接增加一次通关次数，并且排行榜可见！
