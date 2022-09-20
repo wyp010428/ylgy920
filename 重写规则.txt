@@ -1,33 +1,33 @@
 {
+  "mitm": 1,
+  "locked": 0,
+  "enabled": 1,
   "paths": [
     {
       "host": "cat-match-static.easygame2021.com",
-      "regrexPath": "",
+      "port": "",
+      "schema": "https",
       "rules": [
         {
           "mode": "regular",
-          "serverFile": "",
-          "regularAction": "modifyBody",
-          "tempFile": "",
           "type": "response",
-          "matchKey": "\"blockTypeData\":\\{.+\\},\"levelData\"",
-          "localFile": "",
-          "mockType": "local",
+          "regularAction": "modifyBody",
           "redirectCode": "code302",
+          "headerAction": "add",
+          "serverFile": "",
           "modifyValue": "\"blockTypeData\":{},\"levelData\"",
           "mockFileType": 0,
-          "headerAction": "add"
+          "mockType": "local",
+          "matchKey": "\"blockTypeData\":\\{.+\\},\"levelData\"",
+          "localFile": "",
+          "tempFile": ""
         }
       ],
-      "query": "",
-      "pathMode": 0,
-      "port": "",
-      "schema": "https",
-      "path": "\/maps\/c1132aaca34fe95d20154aa4d5bfa826.txt"
+      "pathMode": 1,
+      "regrexPath": "https:\/\/cat-match-static\\.easygame2021\\.com\/maps\/.+\\.txt",
+      "path": "\/maps\/c1132aaca34fe95d20154aa4d5bfa826.txt",
+      "query": ""
     }
   ],
-  "enabled": 1,
-  "locked": 0,
-  "name": "Y",
-  "mitm": 1
+  "name": "Y"
 }
