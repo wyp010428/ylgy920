@@ -12,7 +12,7 @@ https://cat-match-static.easygame2021.com/maps/c1132aaca34fe95d20154aa4d5bfa826.
 重写为
 "blockTypeData":{}
 即可实现第二关的所有块变成空白模块。
-使用Storm Sniffer重写方法参考 https://zhuanlan.zhihu.com/p/564740778
+使用Storm Sniffer重写方法在 重写规则.txt 或参考 https://zhuanlan.zhihu.com/p/564740778
 或参考github其他软件教程。
 
 ### 二、构造请求
