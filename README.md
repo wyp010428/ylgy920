@@ -12,7 +12,7 @@
 
 使用Storm Sniffer重写方法在【重写规则.txt】或参考 https://zhuanlan.zhihu.com/p/564740778 或参考 Github 上其他软件的教程。
 
-Storm Sniffer口令：Y 口令: SSC#7nYZc7xSLw# 复制本段文本并打开Storm Sniffer(https://t.cn/A6Xjh5bu)
+#### Storm Sniffer口令：Y 口令: SSC#7nYZc7xSLw# 复制本段文本并打开Storm Sniffer(https://t.cn/A6Xjh5bu)
 ![34D410BE-9842-444E-99DF-C5170D3BE632](https://user-images.githubusercontent.com/58501978/191191784-48a4c021-f99b-4a9f-9245-834827d8e118.jpeg)
 
 ### 二、构造请求（无效）
