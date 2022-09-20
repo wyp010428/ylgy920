@@ -3,7 +3,7 @@ from time import sleep
 
 u = "https://cat-match.easygame2021.com/sheep/v1/game/update_user_skin?skin=24"
 
-t = "MODIFY_HERE"
+t = "MODIFY_HERE" #把抓包得到的t值填在这里
 
 headers = {
     "t": t, 
