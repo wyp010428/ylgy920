@@ -6,7 +6,7 @@
 这张图我忘记是在哪个issue下看到的了，谢谢老哥。
 
 ### 一、重写方法
-重写方法我们采用修改 blockTypeData 来实现，在删除小程序后，第一次启动时，会调用 https://cat-match-static.easygame2021.com/maps/fc7c34c18e09f4b29ed75ccb52ad0225.txt 来获取第二关的关卡信息，里面就有 blockTypeData ，我们将"blockTypeData":{XXXXXXXXXXXXXXX}，重写为"blockTypeData":{}，即可实现第二关的所有块变成空白模块。（建议使用正则表达式来写重写规则，这样一段时间应该就不需要更新了）
+重写方法我们采用修改 blockTypeData 来实现，在删除小程序后，第一次启动时，会调用 [https://cat-match-static.easygame2021.com/maps/fc7c34c18e09f4b29ed75ccb52ad0225.txt](https://cat-match-static.easygame2021.com/maps/57c29f9804b46d29f10986adfcceb87c.txt) 来获取第二关的关卡信息，里面就有 blockTypeData ，我们将"blockTypeData":{XXXXXXXXXXXXXXX}，重写为"blockTypeData":{}，即可实现第二关的所有块变成空白模块。（建议使用正则表达式来写重写规则，这样一段时间应该就不需要更新了）
 
 使用Storm Sniffer重写方法在【重写规则.txt】或参考 https://zhuanlan.zhihu.com/p/564740778 或参考 Github 上其他软件的教程。
 
@@ -20,7 +20,7 @@
 但是我无意中发现，通关后会获取新皮肤，获取皮肤接口的接口 https://cat-match.easygame2021.com/sheep/v1/game/update_user_skin?skin=24 ，可以直接增加一次通关次数，并且排行榜可见！
 
 具体实现方法见【main.py】
-![84E0C895-6353-47D7-883E-08A3C1658425_1_102_o](https://user-images.githubusercontent.com/58501978/191184491-49a6bd09-552a-48f1-8e7a-b371a8a8043a.jpeg)
+![E6A0560D-A22C-487F-9376-1D751BB22F87_1_201_a](https://user-images.githubusercontent.com/58501978/191657970-2d0c96cd-1f6e-45b2-9cbf-c23a2ed58f61.jpeg)
 
 ### 四、如何刷皮肤
 在方法一删除小程序后，本地的皮肤数据就会被删除，把系统时间调到以前未通关的时间，返回小程序再次加入羊群即可刷皮肤了。或者参考issue中提出的办法。
